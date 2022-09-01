@@ -1,0 +1,15 @@
+//let date = new Date(2023, 0, 1, 2, 3, 4);
+//let date = new Date("10, February, 2023 00:00:00");
+
+let data = new Date();
+
+data.getFullYear(2024);
+
+
+/*
+
+*/
+data = data.toLocaleString();
+
+document.getElementById("meuLabel").innerHTML = data;
+
