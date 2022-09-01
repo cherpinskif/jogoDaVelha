@@ -63,7 +63,7 @@ function checarVencedor(){
     }
 
     if(vencedorRound){
-        textoStatus.textContent = `${jogadorAtual} ganhou`;
+        textoStatus.textContent = `Te amo meu amor ♥`; //`${jogadorAtual} ganhou`
         rodando = false;
     }
     else if(!opcoes.includes("")){
